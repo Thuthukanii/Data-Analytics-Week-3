@@ -126,8 +126,3 @@ Research reports aid in making strategic decisions, considering broader implicat
 Strategic reports combine internal operational data with external factors, requiring more time to create due to their comprehensive nature.
 Each type serves distinct purposes, catering to different information needs and decision-making contexts within organizations.
 </details>
-
-<details>
-<summary>Report Types</summary>
-
-</details>
