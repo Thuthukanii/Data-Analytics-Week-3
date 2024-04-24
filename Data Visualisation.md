@@ -1,3 +1,30 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Define data for the logo
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+# Create the plot
+plt.figure(figsize=(6, 4))
+plt.plot(x, y, color='blue', linewidth=2)
+plt.title('Data Analytics Logo', fontsize=16)
+plt.xlabel('X-axis', fontsize=12)
+plt.ylabel('Y-axis', fontsize=12)
+
+# Add annotation or additional decorations if needed
+plt.text(5, 0, 'Data', fontsize=12, color='green')
+plt.text(5, -0.5, 'Analytics', fontsize=12, color='green')
+
+# Customize appearance
+plt.grid(True)
+plt.tight_layout()
+
+# Save the logo
+plt.savefig('data_analytics_logo.png')
+
+# Show the logo
+plt.show()
 
 <details>
 <summary>Understanding Business Requirements</summary>
